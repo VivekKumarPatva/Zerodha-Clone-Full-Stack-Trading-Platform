@@ -1,0 +1,13 @@
+.invest-contain{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 5em;
+    justify-content: center;
+}
+
+.invest-items{
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+}

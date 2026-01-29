@@ -70,3 +70,7 @@ body {
 padding-top: 70px;    /* this is due to content did not behind navbar  */
 
 }
+
+a{
+  text-decoration: none;
+}
