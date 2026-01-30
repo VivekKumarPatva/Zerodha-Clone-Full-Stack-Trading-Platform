@@ -1,0 +1,9 @@
+input:focus{
+border: none;
+outline: none;
+}
+
+.custom-input::placeholder {
+    font-size: 25px;
+    color:#a6adb1 ;
+}

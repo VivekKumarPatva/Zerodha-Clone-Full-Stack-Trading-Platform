@@ -1,22 +1,19 @@
-import React from 'react';
-
-import Navbar from '../Navbar';
-import Hero from './Hero';
-import LeftSection from '../products/LeftSection';
-import RightSection from '../products/RightSection';
-import Universe from '../products/Universe';
-import Footer from '../Footer';
+import AccountCharge from "./AccoutCharge";
+import Brokerage from "./Brokerage";
+import ChargeDescription from "./Chargedescription";
+import DematAmc from "./DematAmc";
+import OptionalCharge from "./OptionalCharge";
 
 function PricingPage() {
-    return (<>
-        <Navbar />
-        <Hero />
-        <LeftSection />
-        <RightSection />
-        <Universe />
-        <Footer />
-
-    </>);
+  return (
+    <>
+      <Brokerage />
+      <AccountCharge />
+      <DematAmc />
+      <OptionalCharge />
+      <ChargeDescription />
+    </>
+  );
 }
 
 export default PricingPage;
