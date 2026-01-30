@@ -10,7 +10,7 @@ function Team() {
       <div className="row text-muted fs-6 ">
         <div className="col-6 p-5 text-center">
           <img
-            src="assets/nithinKamath.jpg"
+            src="/assets/nithinKamath.jpg"
             alt="nithinKamath"
             style={{
               borderRadius: "100%",

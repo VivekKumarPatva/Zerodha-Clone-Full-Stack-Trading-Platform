@@ -15,7 +15,7 @@ import Footer from "./landing_page/Footer";
 import NotFound from "./landing_page/NotFound";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/Zerodha-Clone-Full-Stack-Trading-Platform">
+  <BrowserRouter basename={import.meta.env.BASE_URL} >
     <Navbar />
     <Routes>
       <Route path="/" element={<HomePage />} />

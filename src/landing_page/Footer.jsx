@@ -11,7 +11,7 @@ function Footer() {
         <div className="row">
           <div className="col-3">
             <img
-              src="assets/logo.svg"
+              src="/public/assets/logo.svg"
               alt="Logo"
               style={{ width: "70%" }}
             />
