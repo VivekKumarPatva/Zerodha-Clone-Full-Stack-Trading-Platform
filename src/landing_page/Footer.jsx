@@ -10,11 +10,7 @@ function Footer() {
       <div className="container mt-5 ">
         <div className="row">
           <div className="col-3">
-            <img
-              src="/public/assets/logo.svg"
-              alt="Logo"
-              style={{ width: "70%" }}
-            />
+            <img src="assets/logo.svg" alt="Logo" style={{ width: "70%" }} />
             <p className="copyright">
               &#xA9; 2010 - 2025, Zerodha Broking Ltd <br /> All rights
               reserved.
